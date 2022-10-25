@@ -1,0 +1,185 @@
+*{margin: 0;
+    padding: 0;
+    font-family: 'courier new';
+
+}
+
+
+header{
+    height: 40px;
+    background-color: rgba(45, 17, 17, 0.792);
+    padding: 15px;
+    top: 0;
+    display: flex;
+    position: fixed;
+    width: 100%;
+    justify-content: space-between;
+    
+
+}
+
+header .logohead{
+    padding-left: 15px;
+    padding-top: 10px;
+    width: 100px;
+    height: 30px;
+    background-color: rgb(169, 165, 165);
+
+}
+
+.logohead a{
+    text-decoration: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: black;
+    font-size: 18px;
+}
+
+
+
+
+header nav a{
+
+    text-decoration: none;
+    list-style-type: none;
+    margin-right: 25px;
+    font-size: 16px;
+    letter-spacing: 2px;
+    color: rgba(235, 223, 223, 0.696);
+    font-family: tahoma;
+
+}
+
+.bannertext{
+    
+    height:100vh;
+    background-image: url(./image/bk.jpg);
+    background-size: cover;
+    
+}
+
+.container .bannertext{
+    display: flex;
+    justify-content: center;
+}
+
+.bannertext{
+    padding-top: 180px;
+    
+
+}
+
+.leftsection{
+    margin-right: 50px;
+    
+}
+
+.leftsection h2{
+    color: antiquewhite;
+
+}
+
+.leftsection ul{
+    color: azure;
+    padding: 25px;
+
+
+}
+
+
+
+
+
+form{
+    border: 2px solid lightblue;
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    background-color: rgba(56, 59, 59, 0.558);
+    margin-left: 250px;
+    border-radius: 7px;
+
+
+}
+
+form h4{
+    color: antiquewhite;
+    margin-top: 10px;
+    text-align: center;
+    
+}
+
+form a{
+    
+    text-decoration: none;
+    
+    
+    color: aliceblue;
+
+}
+
+form input{
+    width: 100px;
+}
+
+form label{
+    color: antiquewhite;
+}
+
+
+
+
+
+
+
+
+.secondpage{
+    height: 100vh;
+    background-color: rgb(48, 45, 45);
+}
+
+
+.foodimg{
+    height: 200px;
+    width: 200px;
+    border-radius: 7px 20px 60px;
+}
+
+.cards{
+    display: flex;
+    justify-content: center;
+    padding-top: 200px;
+}
+
+.card{
+    width: 400px;
+    height: 100px;
+    text-align: center;
+    letter-spacing: 1px;
+    line-height: 1.5;
+}
+
+.card h2{
+    color: beige;
+    font-size: 10px;
+
+    
+}
+
+.card p{
+    color: blanchedalmond;
+    font-size: 8px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
